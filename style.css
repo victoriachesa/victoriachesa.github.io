@@ -1,0 +1,61 @@
+.row-column {
+    flex-direction: column;
+}
+
+@media (min-width: 600px) {
+   .row-column {
+       flex-direction: row;
+   }
+    }
+
+.container {
+width: full;
+    }
+
+.btn-warning{
+    background-color: #E7CE8C;
+    border-color: #E7CE8C;   
+    }
+
+.btn-light {
+    background-color: white;
+    border-color: white;
+}
+
+h1, a {font-family: 'Poppins', sans-serif;
+    color: #252645;
+}
+p, h5 {font-family: 'Cormorant Garamond', serif;
+    color: #252645;
+}
+
+.fs {
+    color: #252645;
+}
+
+.btn-outline-secondary {
+    color: #B6696A;
+    border-color: #B6696A;
+    
+}
+
+.btn-outline-secondary-hover {
+color: #B6696A;
+}
+
+.body {
+    width: fit-content;
+}
+
+.container {
+    width: 1920px;
+    height: 1080px;
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: -50px;
+   }
